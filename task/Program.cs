@@ -55,3 +55,8 @@ void ShowArrayOfRowesOfThreeOrLessElements(string[] array2)
     }
 }
 
+int sizeRes = GetTheCountOfRowsInAnArrayOfThreeOrFewerElements(arrayInput);
+string[] arrayResult = GetArrayOfRowesOfThreeOrFewerElements(arrayInput, sizeRes);
+
+Console.WriteLine("Новый (сформированный) массив строк из трех и менее элементов: ");
+ShowArrayOfRowesOfThreeOrLessElements(arrayResult);
