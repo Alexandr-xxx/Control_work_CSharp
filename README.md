@@ -9,3 +9,9 @@
 [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”] 
 [“1234”, “1567”, “-2”, “computer science”] → [“-2”] 
 [“Russia”, “Denmark”, “Kazan”] → []
+
+1. Блок-схема (по решению задачи) в папке
+(Control_work_csharp).
+
+2. Код программы (решение задачи) в папке
+Control_work_csharp\task
