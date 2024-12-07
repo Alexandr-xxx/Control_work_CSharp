@@ -12,11 +12,6 @@
 // Длина нового массив (array2) равна количеству строк из первого массива (arrayINput)
 // с длинной не более 3-х элементов.
 
-Console.WriteLine("Введите строки (через пробел!): ");
-string str = Console.ReadLine();
-
-string[] arrayInput = str.Split();
-
 int GetTheCountOfRowsInAnArrayOfThreeOrFewerElements(string[] array1)
 {
     int count = 0;
@@ -54,6 +49,11 @@ void ShowArrayOfRowesOfThreeOrLessElements(string[] array2)
         Console.Write($"{array2[i]} ");
     }
 }
+
+Console.WriteLine("Введите строки (через пробел!): ");
+string str = Console.ReadLine();
+
+string[] arrayInput = str.Split();
 
 int sizeRes = GetTheCountOfRowsInAnArrayOfThreeOrFewerElements(arrayInput);
 string[] arrayResult = GetArrayOfRowesOfThreeOrFewerElements(arrayInput, sizeRes);
