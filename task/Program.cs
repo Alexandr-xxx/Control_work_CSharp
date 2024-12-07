@@ -30,3 +30,21 @@ int GetTheCountOfRowsInAnArrayOfThreeOrFewerElements(string[] array1)
     }
     return count;
 }
+
+string[] GetArrayOfRowesOfThreeOrFewerElements(string[] array, int size)
+{
+    string[] array2 = new string[size];
+    int sizeArr2 = 0;
+
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+            array2[sizeArr2] = array[i];
+            sizeArr2++;
+        }
+    }
+    return array2;
+}
+
+
