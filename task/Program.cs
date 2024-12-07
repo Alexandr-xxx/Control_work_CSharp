@@ -47,4 +47,11 @@ string[] GetArrayOfRowesOfThreeOrFewerElements(string[] array, int size)
     return array2;
 }
 
+void ShowArrayOfRowesOfThreeOrLessElements(string[] array2)
+{
+    for (int i = 0; i < array2.Length; i++)
+    {
+        Console.Write($"{array2[i]} ");
+    }
+}
 
