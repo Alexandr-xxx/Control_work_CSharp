@@ -16,3 +16,17 @@ Console.WriteLine("Введите строки (через пробел!): ");
 string str = Console.ReadLine();
 
 string[] arrayInput = str.Split();
+
+int GetTheCountOfRowsInAnArrayOfThreeOrFewerElements(string[] array1)
+{
+    int count = 0;
+
+    for (int i = 0; i < array1.Length; i++)
+    {
+        if (array1[i].Length <= 3)
+        {
+            count++;
+        }
+    }
+    return count;
+}
